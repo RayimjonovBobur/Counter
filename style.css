@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    font-family:sans-serif;
+    background: url("tog.jpg");
+    background-size: cover;
+}
+
+.container{
+    height: 80vh;
+    width: 450px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.350);
+    text-align: center;
+    flex-direction: column;
+  }
+
+h2 {
+    font-size: 60px;
+}
+
+button {
+    font-size: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
